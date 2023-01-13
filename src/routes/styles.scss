@@ -1,0 +1,60 @@
+@import url("https://rsms.me/inter/inter.css");
+
+:root {
+    --bg-1: #0b0e14;
+    --bg-2: #131721;
+    --fg-1: #bfbdb6;
+    --fg-2: #122132;
+    --fg-3: #88c0d0;
+
+    font-family: Inter,sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-1);
+}
+
+.time {
+    color: var(--fg-1);
+    font-size: 50px;
+}
+
+.search-input {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: var(--bg-2);
+    border: none;
+    color: var(--fg-1);
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+    width: 350px;
+}
+
+.search-button {
+    background-color: var(--fg-2);
+    border: none;
+    color: var(--fg-1);
+    height: 90px;
+    width: 100px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.bookmarks {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
