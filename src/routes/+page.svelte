@@ -33,7 +33,7 @@
             { formatted_time }
         </div>
         <div class="input">
-            <input class="search-input" placeholder="Search Google" on:keyup={checkKey} bind:value={search_text}>
+            <input autofocus class="search-input" placeholder="Search Google" on:keyup={checkKey} bind:value={search_text}>
             <button class="search-button" on:click={search}>Search</button>
         </div>
         <div class="bookmarks">
